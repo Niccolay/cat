@@ -12,3 +12,16 @@
     display: block; /* Para asegurar que la imagen se comporte como un bloque */
     margin: 0 auto; /* Centrar la imagen horizontalmente */
 }
+@media screen and (max-width:600px){
+    .image {
+        height: auto;
+        width: 200vh;
+        overflow:hidden;
+    }
+    .image img {
+        height: auto;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
