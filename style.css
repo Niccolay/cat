@@ -1,0 +1,14 @@
+/* Estilo para el contenedor de la imagen */
+.image {
+    height: 100vh; /* 100% de la altura de la ventana */
+    width: auto; /* Ancho ajustado automáticamente */
+    overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
+}
+
+/* Estilo para la imagen dentro del contenedor */
+.image img {
+    height: 100%; /* 100% de la altura del contenedor */
+    width: auto; /* Ancho ajustado automáticamente */
+    display: block; /* Para asegurar que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
