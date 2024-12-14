@@ -1,6 +1,7 @@
 /* Estilo para el contenedor de la imagen */
 body {
     margin: 0;
+    background-color: #1f1f1f;
 }
 .image {
     height: 100vh; /* 100% de la altura de la ventana */
